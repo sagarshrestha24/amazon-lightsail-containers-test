@@ -1,7 +1,6 @@
 amazon-lightsail-containers-test
 ---
 
-「[研究プロジェクトのWebアプリを気軽にデプロイする方法](https://zenn.dev/junkato/books/how-to-deploy-research-web-apps)」 Chapter 02 Amazon Lightsail Containers のサンプルコードを含むリポジトリです。
 
 ## Directory structure
 
@@ -13,7 +12,7 @@ see also: [Azure Web App for Containersの場合](https://github.com/arch-inc/az
 
 ## How to use
 
-このリポジトリを fork して動作させる場合、以下の設定が必要です。
+
 
 - `.github/workflows/deploy.yml > env.AWS_REGION, env.AWS_LIGHTSAIL_SERVICE_NAME` を自分の環境に合わせて書き換える（cf. [コンテナサービスの作り方](https://zenn.dev/junkato/books/how-to-deploy-research-web-apps/viewer/amazon-lightsail-containers#%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E4%BD%9C%E6%88%90)）
 - GitHub secret `AWS_ACCESS_KEY_ID` `AWS_SECRET_ACCESS_KEY` をセットする（cf. [GitHub secret の設定](https://zenn.dev/junkato/books/how-to-deploy-research-web-apps/viewer/amazon-lightsail-containers#github-secret-%E3%81%AE%E8%A8%AD%E5%AE%9A)）
