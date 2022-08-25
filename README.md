@@ -2,12 +2,6 @@ amazon-lightsail-containers-test
 ---
 
 
-## Directory structure
-
-- `src/` TypeScript で書かれたWebサーバ
-- `dist/` npm run build でトランスパイルされたWebサーバのコード置き場
-- `.github/workflows/` Amazon Lightsail Containers へ自動デプロイを行う GitHub Actions の設定
-
 see also: [Azure Web App for Containersの場合](https://github.com/arch-inc/azure-web-app-for-containers-test)
 
 ## How to use
